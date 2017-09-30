@@ -1,0 +1,5 @@
+C:\SoftwareProjects\MutableTuple\MutableTuple\bin\Debug\MutableTuple.dll
+C:\SoftwareProjects\MutableTuple\MutableTuple\bin\Debug\MutableTuple.pdb
+C:\SoftwareProjects\MutableTuple\MutableTuple\obj\Debug\MutableTuple.dll
+C:\SoftwareProjects\MutableTuple\MutableTuple\obj\Debug\MutableTuple.pdb
+C:\SoftwareProjects\MutableTuple\MutableTuple\obj\Debug\MutableTuple.csprojResolveAssemblyReference.cache

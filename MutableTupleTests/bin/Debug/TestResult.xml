@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="48" result="Passed" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="154" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-09-30 00:43:17Z" end-time="2017-09-30 00:43:26Z" duration="9.460697">
+  <command-line><![CDATA["C:\SoftwareProjects\MutableTuple\MutableTupleTests\bin\Debug\..\..\..\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" MutableTupleTests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1049" name="MutableTupleTests.dll" fullname="C:\SoftwareProjects\MutableTuple\MutableTupleTests\bin\Debug\MutableTupleTests.dll" runstate="Runnable" testcasecount="48" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.282269" total="48" passed="48" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="154">
+    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\SoftwareProjects\MutableTuple\MutableTupleTests\bin\Debug" machine-name="MOBILE-2" user="FredEkstrand" user-domain="MOBILE-2" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\SoftwareProjects\MutableTuple\MutableTupleTests\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3944" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1050" name="MutableTupleTests" fullname="MutableTupleTests" runstate="Runnable" testcasecount="48" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.253348" total="48" passed="48" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="154">
+      <test-suite type="TestFixture" id="0-1000" name="MutableTupleTests" fullname="MutableTupleTests.MutableTupleTests" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" testcasecount="48" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.241952" total="48" passed="48" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="154">
+        <test-case id="0-1033" name="MTuple1CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple1CompareTo" methodname="MTuple1CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="265872440" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.064855" asserts="1">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1001" name="MTuple1E" fullname="MutableTupleTests.MutableTupleTests.MTuple1E" methodname="MTuple1E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="88242666" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000989" asserts="1">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1009" name="MTuple1ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple1ECP" methodname="MTuple1ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1218717754" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000593" asserts="1">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1017" name="MTuple1EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple1EProperties" methodname="MTuple1EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1818039982" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001027" asserts="1">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1025" name="MTuple1Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple1Equals" methodname="MTuple1Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="956119648" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.010912" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1041" name="MTuple1Size" fullname="MutableTupleTests.MutableTupleTests.MTuple1Size" methodname="MTuple1Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1291556352" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001007" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1034" name="MTuple2CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple2CompareTo" methodname="MTuple2CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="559197947" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003048" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1002" name="MTuple2E" fullname="MutableTupleTests.MutableTupleTests.MTuple2E" methodname="MTuple2E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="554692273" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003119" asserts="2">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1010" name="MTuple2ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple2ECP" methodname="MTuple2ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="2135358115" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001083" asserts="2">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1018" name="MTuple2EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple2EProperties" methodname="MTuple2EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1972606426" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001204" asserts="2">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1026" name="MTuple2Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple2Equals" methodname="MTuple2Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="636544738" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001775" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1042" name="MTuple2Size" fullname="MutableTupleTests.MutableTupleTests.MTuple2Size" methodname="MTuple2Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="194385617" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000724" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1035" name="MTuple3CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple3CompareTo" methodname="MTuple3CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1071757833" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003603" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1003" name="MTuple3E" fullname="MutableTupleTests.MutableTupleTests.MTuple3E" methodname="MTuple3E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="342592577" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003296" asserts="3">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1011" name="MTuple3ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple3ECP" methodname="MTuple3ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1617308464" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001103" asserts="3">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1019" name="MTuple3EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple3EProperties" methodname="MTuple3EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="627158672" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001234" asserts="3">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1027" name="MTuple3Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple3Equals" methodname="MTuple3Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="372720852" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003612" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1043" name="MTuple3Size" fullname="MutableTupleTests.MutableTupleTests.MTuple3Size" methodname="MTuple3Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1418833449" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000850" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1036" name="MTuple4CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple4CompareTo" methodname="MTuple4CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="875214338" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003360" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1004" name="MTuple4E" fullname="MutableTupleTests.MutableTupleTests.MTuple4E" methodname="MTuple4E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="2101680889" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003397" asserts="4">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1012" name="MTuple4ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple4ECP" methodname="MTuple4ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="422521216" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001535" asserts="4">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1020" name="MTuple4EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple4EProperties" methodname="MTuple4EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="2123596216" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001642" asserts="4">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1028" name="MTuple4Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple4Equals" methodname="MTuple4Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="588091668" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002339" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1044" name="MTuple4Size" fullname="MutableTupleTests.MutableTupleTests.MTuple4Size" methodname="MTuple4Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="743723240" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000791" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1037" name="MTuple5CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple5CompareTo" methodname="MTuple5CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="946276265" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003504" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1005" name="MTuple5E" fullname="MutableTupleTests.MutableTupleTests.MTuple5E" methodname="MTuple5E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="83387585" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003672" asserts="5">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1013" name="MTuple5ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple5ECP" methodname="MTuple5ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="711520390" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001447" asserts="5">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1021" name="MTuple5EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple5EProperties" methodname="MTuple5EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="904334503" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002114" asserts="5">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1029" name="MTuple5Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple5Equals" methodname="MTuple5Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="748896159" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002479" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1045" name="MTuple5Size" fullname="MutableTupleTests.MutableTupleTests.MTuple5Size" methodname="MTuple5Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1797141842" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000928" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1038" name="MTuple6CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple6CompareTo" methodname="MTuple6CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1094275004" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.004059" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1006" name="MTuple6E" fullname="MutableTupleTests.MutableTupleTests.MTuple6E" methodname="MTuple6E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="168578348" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002790" asserts="6">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1014" name="MTuple6ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple6ECP" methodname="MTuple6ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="335592540" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001514" asserts="6">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1022" name="MTuple6EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple6EProperties" methodname="MTuple6EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1528245059" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002337" asserts="6">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1030" name="MTuple6Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple6Equals" methodname="MTuple6Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="63119024" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002656" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1046" name="MTuple6Size" fullname="MutableTupleTests.MutableTupleTests.MTuple6Size" methodname="MTuple6Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="938217002" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.000900" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1039" name="MTuple7CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple7CompareTo" methodname="MTuple7CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="464389390" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.004366" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1007" name="MTuple7E" fullname="MutableTupleTests.MutableTupleTests.MTuple7E" methodname="MTuple7E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1194602089" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003036" asserts="7">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1015" name="MTuple7ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple7ECP" methodname="MTuple7ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="850603660" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001798" asserts="7">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1023" name="MTuple7EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple7EProperties" methodname="MTuple7EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="280025521" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003109" asserts="7">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1031" name="MTuple7Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple7Equals" methodname="MTuple7Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="445411113" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002735" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1047" name="MTuple7Size" fullname="MutableTupleTests.MutableTupleTests.MTuple7Size" methodname="MTuple7Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1898941459" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.001165" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+        <test-case id="0-1040" name="MTuple8CompareTo" fullname="MutableTupleTests.MutableTupleTests.MTuple8CompareTo" methodname="MTuple8CompareTo" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1527880132" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.004782" asserts="3">
+          <properties>
+            <property name="Category" value="CompareTo" />
+          </properties>
+        </test-case>
+        <test-case id="0-1008" name="MTuple8E" fullname="MutableTupleTests.MutableTupleTests.MTuple8E" methodname="MTuple8E" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="329166357" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.004145" asserts="8">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1016" name="MTuple8ECP" fullname="MutableTupleTests.MutableTupleTests.MTuple8ECP" methodname="MTuple8ECP" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1877826418" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002782" asserts="8">
+          <properties>
+            <property name="Category" value="Constructors" />
+          </properties>
+        </test-case>
+        <test-case id="0-1024" name="MTuple8EProperties" fullname="MutableTupleTests.MutableTupleTests.MTuple8EProperties" methodname="MTuple8EProperties" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="93037255" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.003675" asserts="8">
+          <properties>
+            <property name="Category" value="Properties" />
+          </properties>
+        </test-case>
+        <test-case id="0-1032" name="MTuple8Equals" fullname="MutableTupleTests.MutableTupleTests.MTuple8Equals" methodname="MTuple8Equals" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="1681829149" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.004025" asserts="2">
+          <properties>
+            <property name="Category" value="Equals" />
+          </properties>
+        </test-case>
+        <test-case id="0-1048" name="MTuple8Size" fullname="MutableTupleTests.MutableTupleTests.MTuple8Size" methodname="MTuple8Size" classname="MutableTupleTests.MutableTupleTests" runstate="Runnable" seed="707257283" result="Passed" start-time="2017-09-30 00:43:26Z" end-time="2017-09-30 00:43:26Z" duration="0.002036" asserts="1">
+          <properties>
+            <property name="Category" value="Size" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

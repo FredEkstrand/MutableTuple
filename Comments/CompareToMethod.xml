@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Comments>
+  <!-- This element's content is imported by element name -->
+  <CompairTo4>
+         <summary>
+         Compares the current Mutable Tuple objct to the given Mutable Tuple object with the same number of elements.
+         </summary>
+         <param name="other">An MTuple with the same number of elements to compare with the current instance.</param>
+         <returns>
+        A signed integer that indicates the relative position of this instance and other in the sort order, as shown in the following table.
+        <table>
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Less than zero</td>
+                   <td>This instance precedes obj in the sort order.</td>
+                </tr>
+                 <tr>
+                    <td>Zero</td>
+                    <td>This instance occurs in the same position in the sort order as obj.</td>
+                </tr>
+                <tr>
+                    <td>Greater than zero</td>
+                    <td>This instance follows obj in the sort order.</td>
+                </tr>
+            </table>
+        </returns>
+  </CompairTo4>
+  <CompleteDoc3>
+     <summary>
+         Compares the current Mutable Tuple objct to the given object.
+         </summary>
+         <param name="obj">An object to compare with the current instance.</param>
+        <returns>
+        A signed integer that indicates the relative position of this instance and other in the sort order, as shown in the following table.
+        <table>
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Less than zero</td>
+                   <td>This instance precedes obj in the sort order.</td>
+                </tr>
+                 <tr>
+                    <td>Zero</td>
+                    <td>This instance occurs in the same position in the sort order as obj.</td>
+                </tr>
+                <tr>
+                    <td>Greater than zero</td>
+                    <td>This instance follows obj in the sort order.</td>
+                </tr>
+            </table>
+        </returns>
+  </CompleteDoc3>
+  
+  <CompleteDoc>
+    <summary>
+    Compares the current Mutable Tuple object to a specified object by using a specified comparer, 
+    and returns an integer that indicates whether the current object is before, after, 
+    or in the same position as the specified object in the sort order.
+    </summary>
+    <param name="obj">An object to compare with the current instance.</param>
+    <param name="other">An object to compare with the current instance.</param>
+    <param name="comparer">An object that provides custom rules for comparison.</param>
+    <returns>A signed integer that indicates the relative position of this instance and other in the sort order, as shown in the following table.  <br/>
+        <table>
+            <tr>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Less than zero</td>
+                <td>This instance precedes obj in the sort order.</td>
+            </tr>
+             <tr>
+                <td>Zero</td>
+                <td>This instance occurs in the same position in the sort order as obj.</td>
+            </tr>
+            <tr>
+                <td>Greater than zero</td>
+                <td>This instance follows obj in the sort order.</td>
+            </tr>
+        </table> 
+    </returns>
+  </CompleteDoc>
+  
+    <CompleteDoc2>
+    <summary>
+    Compares the current Mutable Tuple object to a specified object by using a specified comparer, 
+    and returns an integer that indicates whether the current object is before, after, 
+    or in the same position as the specified object in the sort order.
+    </summary>
+    <param name="other">An object to compare with the current instance.</param>
+    <param name="comparer">An object that provides custom rules for comparison.</param>
+    <returns>A signed integer that indicates the relative position of this instance and other in the sort order, as shown in the following table.  <br/>
+        <table>
+            <tr>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Less than zero</td>
+                <td>This instance precedes obj in the sort order.</td>
+            </tr>
+             <tr>
+                <td>Zero</td>
+                <td>This instance occurs in the same position in the sort order as obj.</td>
+            </tr>
+            <tr>
+                <td>Greater than zero</td>
+                <td>This instance follows obj in the sort order.</td>
+            </tr>
+        </table> 
+    </returns>
+  </CompleteDoc2> 
+  
+</Comments>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Comments>
+
+  <HashCodeCombiner id="summary">
+  <summary>HashCodeCombiner</summary>
+  </HashCodeCombiner>
+  
+  <HashPramName id='HPN'>
+  <para>A 32-bit signed integer hash code.</para>
+  </HashPramName>
+  
+  <HashReturn id='HR'>
+    <para>A 32-bit signed integer hash code combined from the given 32-bit singed integers.</para>
+  </HashReturn>
+  
+  <typeparamT1 id='tpt1'>
+    <para>
+    The type of the mutable tuple's first component.
+    </para>
+  </typeparamT1>
+  
+    <typeparamT2>
+    <para>
+    The type of the mutable tuple's second component.
+    </para>
+  </typeparamT2>
+  
+    <typeparamT3>
+    <para>
+    The type of the mutable tuple's third component.
+    </para>
+  </typeparamT3>
+  
+      <typeparamT4>
+    <para>
+    The type of the mutable tuple's forth component.
+    </para>
+  </typeparamT4>
+  
+      <typeparamT5>
+    <para>
+    The type of the mutable tuple's fifth component.
+    </para>
+  </typeparamT5>
+  
+      <typeparamT6>
+    <para>
+    The type of the mutable tuple's sixth component.
+    </para>
+  </typeparamT6>
+  
+      <typeparamT7>
+    <para>
+    The type of the mutable tuple's seventh component.
+    </para>
+  </typeparamT7>
+  
+   <typeparamT8>
+    <para>
+    The type of the mutable tuple's TRest component.
+    </para>
+  </typeparamT8>
+  
+  <BaseConstructor>
+     <summary>
+        Initializes a new instance of the Mutable Tuple class.
+     </summary>
+  </BaseConstructor>
+  
+  <ConstructorWithParametrs>
+    <summary>
+        Initializes a new instance of the Mutable Tuple class.
+     </summary>
+  </ConstructorWithParametrs>
+  
+  <ConParameter1>
+    <para>
+    The type of the mutable tuple's first component.
+    </para>
+  </ConParameter1>
+  
+  <ConParameter2>
+    <para>
+    The type of the mutable tuple's second component.
+    </para>
+  </ConParameter2>
+  
+  <ConParameter3>
+    <para>
+    The type of the mutable tuple's third component.
+    </para>
+  </ConParameter3>
+  
+  <ConParameter4>
+    <para>
+    The type of the mutable tuple's forth component.
+    </para>
+  </ConParameter4>
+  
+  <ConParameter5>
+    <para>
+    The type of the mutable tuple's fifth component.
+    </para>
+  </ConParameter5>
+  
+  <ConParameter6>
+    <para>
+    The type of the mutable tuple's sixth component.
+    </para>
+  </ConParameter6>
+  
+  <ConParameter7>
+    <para>
+    The type of the mutable tuple's seventh component.
+    </para>
+  </ConParameter7>
+  
+  <ConParameter8>
+    <para>
+    The type of the mutable tuple's rest component.
+    </para>
+  </ConParameter8>
+  
+  <GetSetT1>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's first component.
+    </summary>
+  </GetSetT1>
+  
+    <GetSetT2>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's second component.
+    </summary>
+  </GetSetT2>
+
+    <GetSetT3>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's third component.
+    </summary>
+  </GetSetT3>
+  
+    <GetSetT4>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's forth component.
+    </summary>
+  </GetSetT4>
+  
+    <GetSetT5>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's fifth component.
+    </summary>
+  </GetSetT5>
+  
+    <GetSetT6>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's sixth component.
+    </summary>
+  </GetSetT6>
+
+    <GetSetT7>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's seventh component.
+    </summary>
+  </GetSetT7>
+  
+    <GetSetT8>
+    <summary>
+     Get/Set the value of the Mutable Tuple object's TRest component.
+    </summary>
+  </GetSetT8>
+  
+  <Equals>
+        <summary>
+        Returns a value that indicates whether the current Mutable Tuple object is equal to a specified object.)
+        </summary>
+        <param name="obj">The object to compare with this instance.</param>
+        <returns>True if the current instance is equal to the specified object; otherwise, false.</returns>
+  </Equals>
+  
+  <IStructuralEquatable>
+        <summary>
+        Returns a value that indicates whether the current Mutable Tuple object is equal to a specified object based on a specified comparison method.
+        </summary>
+        <param name="other">The object to compare with this instance.</param>
+        <param name="comparer">An object that defines the method to use to evaluate whether the two objects are equal.</param>
+        <returns>True if the current instance is equal to the specified object; otherwise, false.</returns>
+  </IStructuralEquatable>
+  
+  <GetHashCode>
+    <summary>
+        Returns the hash code for the current Mutable Tuple object.)
+    </summary>
+    <returns>A 32-bit signed integer hash code.</returns>
+  </GetHashCode>
+  
+  <IStructuralEquatableGetHashCode>
+     <summary>
+        Calculates the hash code for the current Mutable Tuple object by using a specified computation method.
+     </summary>
+     <param name="comparer">An object whose GetHashCode method calculates the hash code of the current Mutable Tuple object.</param>
+     <returns><include file="..\Comments\commoncontent.xml" path='Comments/HashPramName/*' /></returns>
+  </IStructuralEquatableGetHashCode>
+  
+  <ITupleGetHashCode>
+    <summary>
+       Calculates the hash code for the current Mutable Tuple object by using a specified computation method.
+    </summary>
+    <param name="comparer">An object whose GetHashCode method calculates the hash code of the current Mutable Tuple object.</param>
+    <returns><include file="..\Comments\commoncontent.xml" path='Comments/HashPramName/*' /></returns>
+  </ITupleGetHashCode>
+  
+  <ToString>
+     <summary>
+        Returns a string that represents the value of this Mutable Tuple instance.
+     </summary>
+     <returns>The string representation of this Mutable Tuple object.</returns>
+  </ToString>
+  
+  <ITupleToString>
+    <summary>
+         Returns a string that represents the value of this Mutable Tuple instance.
+    </summary>
+    <param name="sb">StringBuilder object</param>
+    <returns>The string representation of this Mutable Tuple object.</returns>
+  </ITupleToString>
+  
+  <ITupleSize>
+     <summary>
+        Return Mutable Tuple number of elements.
+     </summary>
+  </ITupleSize>
+</Comments>
