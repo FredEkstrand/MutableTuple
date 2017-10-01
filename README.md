@@ -1,6 +1,6 @@
 ![Project type](https://github.com/FredEkstrand/ImageFiles/raw/master/CodeIcon.png )
 
-![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg) [![codecov](https://codecov.io/gh/FredEkstrand/TemperatureValue/branch/master/graph/badge.svg)](https://codecov.io/gh/FredEkstrand/TemperatureValue)
+![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)
 
 # Overview
 
