@@ -39,7 +39,7 @@ name.Item1 = tbxName.Text.Trim();
 
 # Code Documentation
 
-Class documentation on mutable tuple can be found [here](#).
+Class documentation on mutable tuple can be found [here](http://fredekstrand.github.io/ClassDocMutableTuple).
 
 # History
  1.0.0 Initial release into the wild.
